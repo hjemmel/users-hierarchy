@@ -1,1 +1,0 @@
-{"version":3,"file":"router.js","sourceRoot":"","sources":["../../../../server/api/controllers/user-roles/router.ts"],"names":[],"mappings":";;;;;AAAA,sDAA8B;AAC9B,8DAAsC;AACtC,kBAAe,iBAAO;KACjB,MAAM,EAAE;KACR,IAAI,CAAC,QAAQ,EAAE,oBAAU,CAAC,OAAO,CAAC;KAClC,IAAI,CAAC,QAAQ,EAAE,oBAAU,CAAC,OAAO,CAAC;KAClC,GAAG,CAAC,MAAM,EAAE,oBAAU,CAAC,eAAe,CAAC,CAAC"}
