@@ -6,15 +6,15 @@ info:
 servers:
   - url: /api/v1
 tags:
-  - name: User Roles
-    description: Endpoint that receive plays with user role hierarchies
+  - name: Hierarchy
+    description: Endpoints that receive plays with user role hierarchies
   - name: Specification
     description: The swagger API specification
 paths:
   /hierarchy/roles:
     post:
       tags:
-        - hierarchy
+        - Hierarchy
       description: Create new roles
       requestBody:
         description: Post new roles
@@ -31,6 +31,15 @@ paths:
               - Id: 2
                 Name: Location Manager
                 Parent: 1
+              - Id: 3
+                Name: Supervisor
+                Parent: 2
+              - Id: 4
+                Name: Employee
+                Parent: 3
+              - Id: 5
+                Name: Trainer
+                Parent: 3
         required: true
       responses:
         200:
@@ -40,7 +49,7 @@ paths:
   /hierarchy/users:
     post:
       tags:
-        - hierarchy
+        - Hierarchy
       description: Create new users
       requestBody:
         description: Post new users
@@ -52,11 +61,20 @@ paths:
                 $ref: '#/components/schemas/User'
             example:
               - Id: 1
-                Name: Rick Sanchez
-                Role: 0
-              - Id: 2
-                Name: Morty Smith
+                Name: Adam Admin
                 Role: 1
+              - Id: 2
+                Name: Emily Employee
+                Role: 4
+              - Id: 3
+                Name: Sam Supervisor
+                Role: 3
+              - Id: 4
+                Name: Mary Manager
+                Role: 2
+              - Id: 5
+                Name: Steve Trainer
+                Role: 5
         required: true
       responses:
         200:
@@ -67,7 +85,7 @@ paths:
   /hierarchy/{id}:
     get:
       tags:
-        - hierarchy
+        - Hierarchy
       description: getSubOrdinates
       parameters:
         - name: id

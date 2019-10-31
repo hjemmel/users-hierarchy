@@ -1,6 +1,7 @@
 import { Role, SubRole, User } from "./interfaces";
 import UserNotFoundException from "./user.notfound.exception";
 import RoleNotFoundException from "./role.notfound.exception";
+import L from "../../common/logger";
 
 export class UserService {
     roles: Role[] | null = null;
@@ -10,6 +11,7 @@ export class UserService {
     setRoles(roles: Role[]) {
         this.roles = roles;
 
+        L.info("Setting roles");
         // initialize the sub roles, creating kind of HashMap
         this.subRoles = roles.reduce((subRole: SubRole, role) => {
             subRole[role.Id] = { ...role, subRoles: [] };
@@ -32,6 +34,8 @@ export class UserService {
     setUsers(users: User[]) {
         this.validateRoles();
 
+        L.info("Setting users");
+
         // validate if users have valid roles
         users.forEach((item) => {
             if (!this.users) {
@@ -39,6 +43,7 @@ export class UserService {
             }
 
             if (!this.roles!.find((role) => role.Id === item.Role)) {
+                L.error(`Role ${item.Role} does not exist`);
                 throw new RoleNotFoundException();
             }
 
