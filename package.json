@@ -12,6 +12,7 @@
     "dev:debug": "cross-env NODE_ENV=development tsnd --inspect -- server/index.ts | pino-pretty",
     "test": "cross-env NODE_ENV=test jest --colors",
     "test:coverage": "cross-env NODE_ENV=test jest --colors --coverage",
+    "test:ci": "jest --ci --runInBand --reporters=default --reporters=jest-junit",
     "lint": "eslint 'server/**/*.ts'"
   },
   "dependencies": {
@@ -42,6 +43,7 @@
     "eslint-plugin-jest": "^22.16.0",
     "eslint-plugin-prettier": "^3.1.0",
     "jest": "^24.9.0",
+    "jest-junit": "^9.0.0",
     "pino-pretty": "^3.2.0",
     "prettier": "^1.18.2",
     "shelljs": "^0.8.3",

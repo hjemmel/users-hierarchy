@@ -34,4 +34,11 @@ jobs:
           key: v1-dependencies-{{ checksum "yarn.lock" }}
 
       # run tests!
-      - run: yarn test
+      - run:
+          name: Run tests
+          command: jest --ci --runInBand --reporters=default --reporters=jest-junit
+          environment:
+            JEST_JUNIT_OUTPUT_DIR: "reports/junit/js-test-results.xml"
+
+      - store_test_results:
+          path: reports/junit/js-test-results.xml
