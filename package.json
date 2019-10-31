@@ -10,9 +10,9 @@
     "build": "ts-node build.ts && tsc",
     "dev": "cross-env NODE_ENV=development tsnd server/index.ts | pino-pretty",
     "dev:debug": "cross-env NODE_ENV=development tsnd --inspect -- server/index.ts | pino-pretty",
-    "test": "cross-env NODE_ENV=test jest --colors",
-    "test:coverage": "cross-env NODE_ENV=test jest --colors --coverage",
-    "test:ci": "jest --ci --runInBand --reporters=default --reporters=jest-junit",
+    "test": "cross-env DOTENV_CONFIG_PATH=.env.test jest --colors",
+    "test:coverage": "cross-env DOTENV_CONFIG_PATH=.env.test jest --colors --coverage",
+    "test:ci": "cross-env DOTENV_CONFIG_PATH=.env.test jest --ci --runInBand --reporters=default --reporters=jest-junit",
     "lint": "eslint 'server/**/*.ts'"
   },
   "dependencies": {
