@@ -72,7 +72,7 @@ describe("UserService", () => {
     it("Should set the User", () => {
         service.setRoles(roles);
         service.setUsers(users);
-        expect(service.users).toBe(users);
+        expect(service.users).toStrictEqual(users);
     });
 
     it("Should set roles before users", () => {

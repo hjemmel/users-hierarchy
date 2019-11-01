@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="9" failures="0" time="0.497">
-  <testsuite name="UserService" errors="0" failures="0" skipped="0" timestamp="2019-10-31T13:56:35" time="0.47" tests="9">
+<testsuites name="jest tests" tests="9" failures="0" time="0.381">
+  <testsuite name="UserService" errors="0" failures="0" skipped="0" timestamp="2019-11-01T01:09:26" time="0.369" tests="9">
     <testcase classname="UserService Should set the roles" name="UserService Should set the roles" time="0.002">
     </testcase>
-    <testcase classname="UserService Should set the User" name="UserService Should set the User" time="0">
+    <testcase classname="UserService Should set the User" name="UserService Should set the User" time="0.001">
     </testcase>
-    <testcase classname="UserService Should set roles before users" name="UserService Should set roles before users" time="0.003">
+    <testcase classname="UserService Should set roles before users" name="UserService Should set roles before users" time="0.005">
     </testcase>
     <testcase classname="UserService Should set user roles should exist in roles" name="UserService Should set user roles should exist in roles" time="0.001">
     </testcase>
@@ -15,9 +15,9 @@
     </testcase>
     <testcase classname="UserService Should check if users were set" name="UserService Should check if users were set" time="0.001">
     </testcase>
-    <testcase classname="UserService Should check if roles were set" name="UserService Should check if roles were set" time="0.001">
+    <testcase classname="UserService Should check if roles were set" name="UserService Should check if roles were set" time="0">
     </testcase>
-    <testcase classname="UserService Should check if users has no subordinate" name="UserService Should check if users has no subordinate" time="0">
+    <testcase classname="UserService Should check if users has no subordinate" name="UserService Should check if users has no subordinate" time="0.001">
     </testcase>
   </testsuite>
 </testsuites>

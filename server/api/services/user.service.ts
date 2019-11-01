@@ -49,8 +49,6 @@ export class UserService {
 
             this.users.push(item);
         });
-
-        this.users = users;
     }
 
     private validateRoles() {
