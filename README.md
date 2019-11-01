@@ -20,7 +20,7 @@ make test
 
 Application is built using [CircleCI](https://circleci.com/gh/hjemmel/users-hierarchy) and deployed in [heroku](https://users-hierarchy.herokuapp.com/api-docs/) 
 
-## important files
+## Important files
  
 ```
 server
