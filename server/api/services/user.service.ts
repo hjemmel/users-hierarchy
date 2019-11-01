@@ -16,7 +16,6 @@ export class UserService {
 
         // initialize the sub roles, creating kind of HashMap
         this.subRoles = roles.reduce((subRole: SubRole, role) => {
-
             // index role with the ide and clear the subroles
             subRole[role.Id] = { ...role, subRoles: [] };
 
