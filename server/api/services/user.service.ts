@@ -8,10 +8,12 @@ export class UserService {
     users: User[] | null = null;
     subRoles: SubRole = {};
 
+    //this method is in charge of verify the roles and create a map of roles <> subroles
     setRoles(roles: Role[]) {
         this.roles = roles;
 
         L.info("Setting roles");
+
         // initialize the sub roles, creating kind of HashMap
         this.subRoles = roles.reduce((subRole: SubRole, role) => {
             subRole[role.Id] = { ...role, subRoles: [] };
@@ -19,7 +21,7 @@ export class UserService {
             return subRole;
         }, {});
 
-        //Loop the roles
+        //Loop the roles to verify the subroles
         for (const role of roles) {
             let parent = role.Parent;
 
@@ -64,12 +66,14 @@ export class UserService {
 
         this.validateRoles();
 
+        //try to find the user
         const user = this.users.find((item) => item.Id === id);
 
         if (!user) {
             throw new UserNotFoundException();
         }
 
+        //get subroles froma  map of roles and subroles created when we set the roles
         const subRoles = this.subRoles[user.Role].subRoles;
 
         //return empty if there is no roles
@@ -77,6 +81,7 @@ export class UserService {
             return [];
         }
 
+        //filter users given the roles
         return this.users.filter((user) => {
             return subRoles.indexOf(user.Role) > -1;
         });

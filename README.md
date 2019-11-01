@@ -4,17 +4,25 @@
 [![CircleCI](https://circleci.com/gh/hjemmel/users-hierarchy.svg?style=svg)](https://circleci.com/gh/hjemmel/users-hierarchy)
 [![CodeFactor](https://www.codefactor.io/repository/github/hjemmel/users-hierarchy/badge)](https://www.codefactor.io/repository/github/hjemmel/users-hierarchy)
 
-## How to Run the tests
+## How to Run the application and the tests
 
 ### Requirements
 
-* Docker and docker-compose installed in the machine
+* [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/) and [Docker Compose](https://docs.docker.com/compose/install/) installed in the machine
 
 ## Run the tests
 
 ```sh
 make test
 ```
+
+### Run the application
+
+```sh
+make dev
+```
+
+Open in the browser URL: http://localhost:3000/api-docs
 
 ## CI / CD
 
