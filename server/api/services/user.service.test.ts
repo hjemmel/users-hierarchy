@@ -79,7 +79,7 @@ describe("UserService", () => {
         expect(() => service.setUsers(users)).toThrow(RoleNotFoundException);
     });
 
-    it("Should set user roles should exist in roles", () => {
+    it("Should user defined role exist in roles", () => {
         service.setRoles(roles);
         const noRoleUser = [
             {
