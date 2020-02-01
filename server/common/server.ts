@@ -35,7 +35,11 @@ export default class ExpressServer {
                 url: process.env.OPENAPI_SPEC || "/spec"
             }
         };
-        app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(null, options));
+        app.use(
+            "/api-docs",
+            swaggerUi.serve,
+            swaggerUi.setup(undefined, options)
+        );
     }
 
     router(routes: (app: Application) => void): ExpressServer {
