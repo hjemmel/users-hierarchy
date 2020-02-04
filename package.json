@@ -8,12 +8,13 @@
   "scripts": {
     "start": "node dist/index.js",
     "build": "ts-node build.ts && tsc",
-    "dev": "cross-env NODE_ENV=development tsnd server/index.ts | pino-pretty",
-    "dev:debug": "cross-env NODE_ENV=development tsnd --inspect -- server/index.ts | pino-pretty",
+    "dev": "cross-env NODE_ENV=development nodemon server/index.ts | pino-pretty",
+    "dev:debug": "cross-env NODE_ENV=development nodemon --inspect server/index.ts | pino-pretty",
     "test": "cross-env DOTENV_CONFIG_PATH=.env.test jest --colors",
     "test:coverage": "cross-env DOTENV_CONFIG_PATH=.env.test jest --colors --coverage",
     "test:ci": "cross-env DOTENV_CONFIG_PATH=.env.test jest --ci --runInBand --reporters=default --reporters=jest-junit",
-    "lint": "eslint 'server/**/*.ts'"
+    "lint": "eslint 'server/**/*.ts'",
+    "type:check": "tsc --noEmit"
   },
   "dependencies": {
     "bluebird": "3.7.2",
@@ -45,12 +46,12 @@
     "eslint-plugin-prettier": "3.1.2",
     "jest": "25.1.0",
     "jest-junit": "10.0.0",
+    "nodemon": "2.0.2",
     "pino-pretty": "3.5.0",
     "prettier": "1.19.1",
     "shelljs": "0.8.3",
     "ts-jest": "25.1.0",
     "ts-node": "8.6.2",
-    "ts-node-dev": "1.0.0-pre.44",
     "typescript": "3.7.5"
   }
 }

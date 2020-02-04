@@ -27,7 +27,12 @@ jobs:
           name: Save Yarn Package Cache
           key: yarn-packages-{{ checksum "yarn.lock" }}
           paths:
+            - node_modules
             - ~/.cache/yarn
+
+      - run:
+          name: Typescript type checking
+          command: yarn type:check
 
       - run:
           name: Run lint
