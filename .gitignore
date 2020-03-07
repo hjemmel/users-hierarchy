@@ -60,3 +60,5 @@ typings/
 .next
 
 dist
+
+junit.xml
