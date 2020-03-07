@@ -2001,10 +2001,10 @@ expect@^25.1.0:
     jest-message-util "^25.1.0"
     jest-regex-util "^25.1.0"
 
-express-openapi-validator@3.9.4:
-  version "3.9.4"
-  resolved "https://registry.yarnpkg.com/express-openapi-validator/-/express-openapi-validator-3.9.4.tgz#f59380ed4d5d7b6f943430b3defab1bdab05aa9c"
-  integrity sha512-Fq29trVXS73f35bBxdN/JuFr15Tn+75cOBq2JVnGHV24Th0Bch3EMCIEDyw2J+6goXD796xF2v5WMcprcOnPSw==
+express-openapi-validator@3.9.5:
+  version "3.9.5"
+  resolved "https://registry.yarnpkg.com/express-openapi-validator/-/express-openapi-validator-3.9.5.tgz#94183b1c2a689a0e7a7d16cdcbaa135f1d566802"
+  integrity sha512-26TTQXmwAXhiD9NbxZszaxTTQl1J56r6WwxT0mDh9Td4Bb6n1no5/GsSGXIBvnhjHwbhl4ldWl1nMHLyVnsnDA==
   dependencies:
     ajv "^6.12.0"
     content-type "^1.0.4"
