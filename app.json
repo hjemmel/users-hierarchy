@@ -1,0 +1,6 @@
+{
+  "name": "User hierarchy app",
+  "description": "User hierarchy Writen in NODEJS",
+  "repository": "https://github.com/hjemmel/users-hierarchy",
+  "keywords": ["node", "express"]
+}

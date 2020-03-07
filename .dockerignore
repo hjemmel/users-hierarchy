@@ -1,0 +1,10 @@
+# Ignore all files by default
+*
+
+# White list only the required files
+!server/
+!public/
+!package.json
+!yarn.lock
+!jest.config.js
+!tsconfig.json
