@@ -839,6 +839,16 @@ ajv@^6.10.0, ajv@^6.10.2, ajv@^6.5.5:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
+ajv@^6.12.0:
+  version "6.12.0"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.12.0.tgz#06d60b96d87b8454a5adaba86e7854da629db4b7"
+  integrity sha512-D6gFiFA0RRLyUbvijN74DWAjXSFxWKaWP7mldxkVhyhAV3+SWA9HEJPHQ2c9soIeTFJqcSdFDGFgdqs1iUU2Hw==
+  dependencies:
+    fast-deep-equal "^3.1.1"
+    fast-json-stable-stringify "^2.0.0"
+    json-schema-traverse "^0.4.1"
+    uri-js "^4.2.2"
+
 ansi-align@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ansi-align/-/ansi-align-2.0.0.tgz#c36aeccba563b89ceb556f3690f0b1d9e3547f7f"
@@ -1992,12 +2002,12 @@ expect@^25.1.0:
     jest-message-util "^25.1.0"
     jest-regex-util "^25.1.0"
 
-express-openapi-validator@3.9.0:
-  version "3.9.0"
-  resolved "https://registry.yarnpkg.com/express-openapi-validator/-/express-openapi-validator-3.9.0.tgz#26f735813734a3cf33c37a5184ef50d999e07564"
-  integrity sha512-3VhUHnWbsTHyXqIvAzbA2WSL+gWzCF0vpXOWl7QnmuyUm1BaeKkR4J30sbXMmc9Db5Ip+d3vC0g97T4jJ9SuPA==
+express-openapi-validator@3.9.4:
+  version "3.9.4"
+  resolved "https://registry.yarnpkg.com/express-openapi-validator/-/express-openapi-validator-3.9.4.tgz#f59380ed4d5d7b6f943430b3defab1bdab05aa9c"
+  integrity sha512-Fq29trVXS73f35bBxdN/JuFr15Tn+75cOBq2JVnGHV24Th0Bch3EMCIEDyw2J+6goXD796xF2v5WMcprcOnPSw==
   dependencies:
-    ajv "^6.10.2"
+    ajv "^6.12.0"
     content-type "^1.0.4"
     js-yaml "^3.13.1"
     json-schema-ref-parser "^7.1.2"
@@ -2104,6 +2114,11 @@ fast-deep-equal@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-2.0.1.tgz#7b05218ddf9667bf7f370bf7fdb2cb15fdd0aa49"
   integrity sha1-ewUhjd+WZ79/Nwv3/bLLFf3Qqkk=
+
+fast-deep-equal@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-3.1.1.tgz#545145077c501491e33b15ec408c294376e94ae4"
+  integrity sha512-8UEa58QDLauDNfpbrX55Q9jrGHThw2ZMdOky5Gl1CDtVeJDPVrG4Jxx1N8jw2gkWaff5UUuX1KJd+9zGe2B+ZA==
 
 fast-diff@^1.1.2:
   version "1.2.0"
