@@ -15,9 +15,7 @@ export class Controller {
 
     getSubOrdinates(req: Request, res: Response): void {
         const id = Number(req.params["id"]);
-        res.status(HttpStatus.OK)
-            .json(UserService.getSubOrdinates(id))
-            .end();
+        res.status(HttpStatus.OK).json(UserService.getSubOrdinates(id)).end();
     }
 }
 

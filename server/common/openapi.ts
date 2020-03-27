@@ -10,7 +10,7 @@ export default function openapi(
     const apiSpec = path.join(__dirname, "api.yml");
 
     new OpenApiValidator({
-        apiSpec
+        apiSpec,
     })
         .install(app)
         .then(() => {
