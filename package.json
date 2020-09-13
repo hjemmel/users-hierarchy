@@ -29,7 +29,7 @@
     "swagger-ui-express": "4.1.4"
   },
   "devDependencies": {
-    "@types/bluebird": "3.5.30",
+    "@types/bluebird": "3.5.32",
     "@types/cookie-parser": "1.4.2",
     "@types/dotenv": "6.1.1",
     "@types/express-serve-static-core": "4.17.3",
