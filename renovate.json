@@ -1,3 +1,5 @@
 {
-  "extends": ["@the-unicorns"]
+  "extends": [
+    "github>the-unicorns/renovate-config"
+  ]
 }
