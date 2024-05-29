@@ -30,8 +30,8 @@ importers:
         specifier: 2.3.0
         version: 2.3.0
       pino:
-        specifier: 6.12.0
-        version: 6.12.0
+        specifier: 6.14.0
+        version: 6.14.0
       swagger-ui-express:
         specifier: 4.1.6
         version: 4.1.6(express@4.19.2)
@@ -55,8 +55,8 @@ importers:
         specifier: 1.4.11
         version: 1.4.11
       '@types/pino':
-        specifier: 6.3.9
-        version: 6.3.9
+        specifier: 6.3.12
+        version: 6.3.12
       '@types/shelljs':
         specifier: 0.8.15
         version: 0.8.15
@@ -477,8 +477,8 @@ packages:
     resolution: {integrity: sha512-gXfUZx2xIBbFYozGms53fT0nvkacx/+62c8iTxrEqH5PkIGAQvDbXg2774VWOycMPbqn5YJBQ3BMsg4Li3dWbg==}
     deprecated: This is a stub types definition. pino-std-serializers provides its own type definitions, so you do not need this installed.
 
-  '@types/pino@6.3.9':
-    resolution: {integrity: sha512-2/XV6adNNCLWnT2lJqcSn/OXrCxRFOY6yXYoofrLy5Ts5e8RHTJP1M4XEcCarQQMa6H6JISaa4GkrlGZwIP5aQ==}
+  '@types/pino@6.3.12':
+    resolution: {integrity: sha512-dsLRTq8/4UtVSpJgl9aeqHvbh6pzdmjYD3C092SYgLD2TyoCqHpTJk6vp8DvCTGGc7iowZ2MoiYiVUUCcu7muw==}
 
   '@types/prettier@1.19.1':
     resolution: {integrity: sha512-5qOlnZscTn4xxM5MeGXAMOsIOIKIbh9e85zJWfBRVPlRMEVawzoPhINYbRGkBZCI8LxvBe7tJCdWiarA99OZfQ==}
@@ -497,10 +497,6 @@ packages:
 
   '@types/shelljs@0.8.15':
     resolution: {integrity: sha512-vzmnCHl6hViPu9GNLQJ+DZFd6BQI2DBTUeOvYHqkWQLMfKAAQYMb/xAmZkTogZI/vqXHCWkqDRymDI5p0QTi5Q==}
-
-  '@types/sonic-boom@2.1.1':
-    resolution: {integrity: sha512-CiKn+8CDgtBspfAVPwC8PXCMPhqeL7pFS4aWuj+WJnHLZlu4OGPctdZ6Mob43jRe0kkd7Ztb2Hcu9kzB+b7ZFw==}
-    deprecated: This is a stub types definition. sonic-boom provides its own type definitions, so you do not need this installed.
 
   '@types/stack-utils@1.0.1':
     resolution: {integrity: sha512-l42BggppR6zLmpfU6fq9HEa2oGPEI8yrSPL3GITjfRInppYFahObbIQOQK3UGxEnyQpltZLaPe75046NOZQikw==}
@@ -2285,8 +2281,8 @@ packages:
   pino-std-serializers@7.0.0:
     resolution: {integrity: sha512-e906FRY0+tV27iq4juKzSYPbUj2do2X2JX4EzSca1631EB2QJQUqGbDuERal7LCtOpxl6x3+nvo9NPZcmjkiFA==}
 
-  pino@6.12.0:
-    resolution: {integrity: sha512-5NGopOcUusGuklGHVVv9az0Hv/Dj3urHhD3G+zhl5pBGIRYAeGCi/Ej6YCl16Q2ko28cmYiJz+/qRoJiwy62Rw==}
+  pino@6.14.0:
+    resolution: {integrity: sha512-iuhEDel3Z3hF9Jfe44DPXR8l07bhjuFY3GMHIXbjnY9XcafbyDDwl2sN2vw2GjMPf5Nkoe+OFao7ffn9SXaKDg==}
     hasBin: true
 
   pirates@4.0.6:
@@ -2331,6 +2327,9 @@ packages:
 
   process-nextick-args@2.0.1:
     resolution: {integrity: sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==}
+
+  process-warning@1.0.0:
+    resolution: {integrity: sha512-du4wfLyj4yCZq1VupnVSZmRsPJsNuxoDQFdCFHLaYiEbFBD7QE0a+I4D7hOxrVnh78QE/YipFAj9lXHiXocV+Q==}
 
   progress@2.0.3:
     resolution: {integrity: sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==}
@@ -2645,8 +2644,8 @@ packages:
   sonic-boom@1.4.1:
     resolution: {integrity: sha512-LRHh/A8tpW7ru89lrlkU4AszXt1dbwSjVWguGrmlxE7tawVmDBlI1PILMkXAxJTwqhgsEeTHzj36D5CmHgQmNg==}
 
-  sonic-boom@4.0.1:
-    resolution: {integrity: sha512-hTSD/6JMLyT4r9zeof6UtuBDpjJ9sO08/nmS5djaA9eozT9oOlNdpXSnzcgj4FTqpk3nkLrs61l4gip9r1HCrQ==}
+  sonic-boom@2.8.0:
+    resolution: {integrity: sha512-kuonw1YOYYNOve5iHdSahXPOK49GqwA+LZhI6Wz/l0rP57iKyXXIHaRagOBHAPmGwJC6od2Z9zgvZ5loSgMlVg==}
 
   source-map-resolve@0.5.3:
     resolution: {integrity: sha512-Htz+RnsXWk5+P2slx5Jh3Q66vhQj1Cllm0zvnaY98+NFx+Dv2CF/f5O/t8x+KaNdrdIAsruNzoh/KpialbqAnw==}
@@ -3630,12 +3629,12 @@ snapshots:
     dependencies:
       pino-std-serializers: 7.0.0
 
-  '@types/pino@6.3.9':
+  '@types/pino@6.3.12':
     dependencies:
       '@types/node': 20.12.12
       '@types/pino-pretty': 5.0.0
       '@types/pino-std-serializers': 4.0.0
-      '@types/sonic-boom': 2.1.1
+      sonic-boom: 2.8.0
 
   '@types/prettier@1.19.1': {}
 
@@ -3658,10 +3657,6 @@ snapshots:
     dependencies:
       '@types/glob': 7.2.0
       '@types/node': 20.12.12
-
-  '@types/sonic-boom@2.1.1':
-    dependencies:
-      sonic-boom: 4.0.1
 
   '@types/stack-utils@1.0.1': {}
 
@@ -5772,12 +5767,13 @@ snapshots:
 
   pino-std-serializers@7.0.0: {}
 
-  pino@6.12.0:
+  pino@6.14.0:
     dependencies:
       fast-redact: 3.5.0
       fast-safe-stringify: 2.1.1
       flatstr: 1.0.12
       pino-std-serializers: 3.2.0
+      process-warning: 1.0.0
       quick-format-unescaped: 4.0.4
       sonic-boom: 1.4.1
 
@@ -5821,6 +5817,8 @@ snapshots:
       react-is: 17.0.2
 
   process-nextick-args@2.0.1: {}
+
+  process-warning@1.0.0: {}
 
   progress@2.0.3: {}
 
@@ -6170,7 +6168,7 @@ snapshots:
       atomic-sleep: 1.0.0
       flatstr: 1.0.12
 
-  sonic-boom@4.0.1:
+  sonic-boom@2.8.0:
     dependencies:
       atomic-sleep: 1.0.0
 
