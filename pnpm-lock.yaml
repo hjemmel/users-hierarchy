@@ -15,8 +15,8 @@ importers:
         specifier: 1.20.2
         version: 1.20.2
       cookie-parser:
-        specifier: 1.4.5
-        version: 1.4.5
+        specifier: 1.4.6
+        version: 1.4.6
       dotenv:
         specifier: 10.0.0
         version: 10.0.0
@@ -40,8 +40,8 @@ importers:
         specifier: 3.5.42
         version: 3.5.42
       '@types/cookie-parser':
-        specifier: 1.4.2
-        version: 1.4.2
+        specifier: 1.4.7
+        version: 1.4.7
       '@types/dotenv':
         specifier: 6.1.1
         version: 6.1.1
@@ -415,8 +415,8 @@ packages:
   '@types/connect@3.4.38':
     resolution: {integrity: sha512-K6uROf1LD88uDQqJCktA4yzL1YYAK6NgfsI0v/mTgyPKWsX1CnJ0XPSDhViejru1GcRkLWb8RlzFYJRqGUbaug==}
 
-  '@types/cookie-parser@1.4.2':
-    resolution: {integrity: sha512-uwcY8m6SDQqciHsqcKDGbo10GdasYsPCYkH3hVegj9qAah6pX5HivOnOuI3WYmyQMnOATV39zv/Ybs0bC/6iVg==}
+  '@types/cookie-parser@1.4.7':
+    resolution: {integrity: sha512-Fvuyi354Z+uayxzIGCwYTayFKocfV7TuDYZClCdIP9ckhvAu/ixDtCB6qx2TT0FKjPLf1f3P/J1rgf6lPs64mw==}
 
   '@types/dotenv@6.1.1':
     resolution: {integrity: sha512-ftQl3DtBvqHl9L16tpqqzA4YzCSXZfi7g8cQceTz5rOlYtk/IZbFjAv3mLOQlNIgOaylCQWQoBdDQHPgEBJPHg==}
@@ -931,15 +931,15 @@ packages:
   convert-source-map@2.0.0:
     resolution: {integrity: sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg==}
 
-  cookie-parser@1.4.5:
-    resolution: {integrity: sha512-f13bPUj/gG/5mDr+xLmSxxDsB9DQiTIfhJS/sqjrmfAWiAN+x2O4i/XguTL9yDZ+/IFDanJ+5x7hC4CXT9Tdzw==}
+  cookie-parser@1.4.6:
+    resolution: {integrity: sha512-z3IzaNjdwUC2olLIB5/ITd0/setiaFMLYiZJle7xg5Fe9KWAceil7xszYfHHBtDFYLSgJduS2Ty0P1uJdPDJeA==}
     engines: {node: '>= 0.8.0'}
 
   cookie-signature@1.0.6:
     resolution: {integrity: sha512-QADzlaHc8icV8I7vbaJXJwod9HWYp8uCqf1xa4OfNu1T7JVxQIrUgOWtHdNDtPiywmFbiS12VjotIXLrKM3orQ==}
 
-  cookie@0.4.0:
-    resolution: {integrity: sha512-+Hp8fLp57wnUSt0tY0tHEXh4voZRDnoIrZPqlo3DPiI4y9lwg/jqx+1Om94/W6ZaPDOUbnjOt/99w66zk+l1Xg==}
+  cookie@0.4.1:
+    resolution: {integrity: sha512-ZwrFkGJxUR3EIoXtO+yVE69Eb7KlixbaeAWfBQB9vVsNn/o+Yw69gBWSSDK825hQNdN+wF8zELf3dFNl/kxkUA==}
     engines: {node: '>= 0.6'}
 
   cookie@0.6.0:
@@ -3552,7 +3552,7 @@ snapshots:
     dependencies:
       '@types/node': 20.12.12
 
-  '@types/cookie-parser@1.4.2':
+  '@types/cookie-parser@1.4.7':
     dependencies:
       '@types/express': 4.17.21
 
@@ -4160,14 +4160,14 @@ snapshots:
 
   convert-source-map@2.0.0: {}
 
-  cookie-parser@1.4.5:
+  cookie-parser@1.4.6:
     dependencies:
-      cookie: 0.4.0
+      cookie: 0.4.1
       cookie-signature: 1.0.6
 
   cookie-signature@1.0.6: {}
 
-  cookie@0.4.0: {}
+  cookie@0.4.1: {}
 
   cookie@0.6.0: {}
 
