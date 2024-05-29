@@ -37,8 +37,8 @@ importers:
         version: 4.1.6(express@4.19.2)
     devDependencies:
       '@types/bluebird':
-        specifier: 3.5.36
-        version: 3.5.36
+        specifier: 3.5.42
+        version: 3.5.42
       '@types/cookie-parser':
         specifier: 1.4.2
         version: 1.4.2
@@ -407,8 +407,8 @@ packages:
   '@types/babel__traverse@7.20.6':
     resolution: {integrity: sha512-r1bzfrm0tomOI8g1SzvCaQHo6Lcv6zu0EA+W2kHrt8dyrHQxGzBBL4kdkzIS+jBMV+EYcMAEAqXqYaLJq5rOZg==}
 
-  '@types/bluebird@3.5.36':
-    resolution: {integrity: sha512-HBNx4lhkxN7bx6P0++W8E289foSu8kO8GCk2unhuVggO+cE7rh9DhZUyPhUxNRG9m+5B5BTKxZQ5ZP92x/mx9Q==}
+  '@types/bluebird@3.5.42':
+    resolution: {integrity: sha512-Jhy+MWRlro6UjVi578V/4ZGNfeCOcNCp0YaFNIUGFKlImowqwb1O/22wDVk3FDGMLqxdpOV3qQHD5fPEH4hK6A==}
 
   '@types/body-parser@1.19.5':
     resolution: {integrity: sha512-fB3Zu92ucau0iQ0JMCFQE7b/dv8Ot07NI3KaZIkIUNXq82k4eBAqUaneXfleGY9JWskeS9y+u0nXMyspcuQrCg==}
@@ -3583,7 +3583,7 @@ snapshots:
     dependencies:
       '@babel/types': 7.24.6
 
-  '@types/bluebird@3.5.36': {}
+  '@types/bluebird@3.5.42': {}
 
   '@types/body-parser@1.19.5':
     dependencies:
