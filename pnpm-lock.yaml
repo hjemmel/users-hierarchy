@@ -100,8 +100,8 @@ importers:
         specifier: 2.3.2
         version: 2.3.2
       shelljs:
-        specifier: 0.8.4
-        version: 0.8.4
+        specifier: 0.8.5
+        version: 0.8.5
       ts-jest:
         specifier: 25.5.1
         version: 25.5.1(jest@25.5.4)(typescript@3.9.10)
@@ -2794,8 +2794,8 @@ packages:
     resolution: {integrity: sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==}
     engines: {node: '>=8'}
 
-  shelljs@0.8.4:
-    resolution: {integrity: sha512-7gk3UZ9kOfPLIAbslLzyWeGiEqx9e3rxwZM0KE6EL8GlGwjym9Mrlx5/p33bWTu9YG6vcS4MBxYZDHYr5lr8BQ==}
+  shelljs@0.8.5:
+    resolution: {integrity: sha512-TiwcRcrkhHvbrZbnRcFYMLl30Dfov3HKqzp5tO5b4pt6G/SezKcYhmDg15zXVBswHmctSAQKznqNW2LO5tTDow==}
     engines: {node: '>=4'}
     hasBin: true
 
@@ -6547,7 +6547,7 @@ snapshots:
 
   shebang-regex@3.0.0: {}
 
-  shelljs@0.8.4:
+  shelljs@0.8.5:
     dependencies:
       glob: 7.2.3
       interpret: 1.4.0
