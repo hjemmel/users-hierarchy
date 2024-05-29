@@ -43,8 +43,8 @@ importers:
         specifier: 1.4.7
         version: 1.4.7
       '@types/dotenv':
-        specifier: 6.1.1
-        version: 6.1.1
+        specifier: 8.2.0
+        version: 8.2.0
       '@types/express-serve-static-core':
         specifier: 4.19.2
         version: 4.19.2
@@ -418,8 +418,9 @@ packages:
   '@types/cookie-parser@1.4.7':
     resolution: {integrity: sha512-Fvuyi354Z+uayxzIGCwYTayFKocfV7TuDYZClCdIP9ckhvAu/ixDtCB6qx2TT0FKjPLf1f3P/J1rgf6lPs64mw==}
 
-  '@types/dotenv@6.1.1':
-    resolution: {integrity: sha512-ftQl3DtBvqHl9L16tpqqzA4YzCSXZfi7g8cQceTz5rOlYtk/IZbFjAv3mLOQlNIgOaylCQWQoBdDQHPgEBJPHg==}
+  '@types/dotenv@8.2.0':
+    resolution: {integrity: sha512-ylSC9GhfRH7m1EUXBXofhgx4lUWmFeQDINW5oLuS+gxWdfUeW4zJdeVTYVkexEW+e2VUvlZR2kGnGGipAWR7kw==}
+    deprecated: This is a stub types definition. dotenv provides its own type definitions, so you do not need this installed.
 
   '@types/express-serve-static-core@4.19.2':
     resolution: {integrity: sha512-dPSEQElyVJ97BuGduAqQjpBocZWAs0GR94z+ptL7JXQJeJdHw2WBG3EWdFrK36b8Q6j8P4cXOMhgUoi0IIfIsg==}
@@ -3556,9 +3557,9 @@ snapshots:
     dependencies:
       '@types/express': 4.17.21
 
-  '@types/dotenv@6.1.1':
+  '@types/dotenv@8.2.0':
     dependencies:
-      '@types/node': 20.12.12
+      dotenv: 10.0.0
 
   '@types/express-serve-static-core@4.19.2':
     dependencies:
