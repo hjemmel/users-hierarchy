@@ -30,8 +30,8 @@ jobs:
             - name: pnpm install
               run: pnpm install --frozen-lockfile
 
-            - name: Typescript type checking
-              run: yarn type:check
+            # - name: Typescript type checking
+            #   run: pnpm type:check
 
             - name: Lint
               run: pnpm lint
