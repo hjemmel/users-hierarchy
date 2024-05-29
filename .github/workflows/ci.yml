@@ -1,0 +1,40 @@
+---
+name: CI
+
+on:
+    push:
+        branches:
+            - master
+    pull_request:
+        branches:
+            - master
+
+jobs:
+    test:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+
+            - uses: pnpm/action-setup@v4
+              name: Install pnpm
+              with:
+                  version: next-9
+                  standalone: true
+
+            - name: Install Node
+              uses: actions/setup-node@v4
+              with:
+                  node-version-file: ".tool-versions"
+                  cache: "pnpm"
+
+            - name: pnpm install
+              run: pnpm install --frozen-lockfile
+
+            - name: Typescript type checking
+              run: yarn type:check
+
+            - name: Lint
+              run: pnpm lint
+
+            - name: Test
+              run: pnpm test:ci
