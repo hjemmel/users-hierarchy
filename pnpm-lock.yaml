@@ -24,8 +24,8 @@ importers:
         specifier: 4.19.2
         version: 4.19.2
       express-openapi-validator:
-        specifier: 3.10.0
-        version: 3.10.0
+        specifier: 3.17.2
+        version: 3.17.2
       http-status-codes:
         specifier: 2.1.4
         version: 2.1.4
@@ -118,8 +118,8 @@ packages:
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
 
-  '@apidevtools/json-schema-ref-parser@8.0.0':
-    resolution: {integrity: sha512-n4YBtwQhdpLto1BaUCyAeflizmIbaloGShsPyRtFf5qdFJxfssj+GgLavczgKJFa3Bq+3St2CKcpRJdjtB4EBw==}
+  '@apidevtools/json-schema-ref-parser@9.0.9':
+    resolution: {integrity: sha512-GBD2Le9w2+lVFoc4vswGI/TjkNIZSVp7+9xPf+X3uidBfWnAeUWmquteSyt0+VCrhNMWj/FTABISQrD3Z/YA+w==}
 
   '@babel/code-frame@7.24.6':
     resolution: {integrity: sha512-ZJhac6FkEd1yhG2AHOmfcXG4ceoLltoCVJjN5XsWN9BifBQr+cHJbWi0h68HZuSORq+3WtJ2z0hwF2NG1b5kcA==}
@@ -678,6 +678,9 @@ packages:
 
   argparse@1.0.10:
     resolution: {integrity: sha512-o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg==}
+
+  argparse@2.0.1:
+    resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
 
   args@5.0.3:
     resolution: {integrity: sha512-h6k/zfFgusnv3i5TU08KQkVKuCPBtL/PWQbWkHUxvJrZ2nAyeaUupneemcrgn1xmqxPQsPIzwkUhOpoqPDRZuA==}
@@ -1342,8 +1345,8 @@ packages:
     resolution: {integrity: sha512-w7KAXo0+6qqZZhovCaBVPSIqQp7/UTcx4M9uKt2m6pd2VB1voyC8JizLRqeEqud3AAVP02g+hbErDu5gu64tlA==}
     engines: {node: '>= 8.3'}
 
-  express-openapi-validator@3.10.0:
-    resolution: {integrity: sha512-+vNPS00ajussUlZZGJsbdUXOHp/hToF72mD5gfZ6zTcYilNHb7DaDEzmTm5/Y1gI86AO0IXNxZVpmZYw6LEkVw==}
+  express-openapi-validator@3.17.2:
+    resolution: {integrity: sha512-MPOPy3OpMBCavEcR0HcvthqXKN1Y2H92hRcoFo30f/lkahfS/3jtUerbObRhVUPtf3PWfOtIVfFHaYRATIZ2Yg==}
 
   express@4.19.2:
     resolution: {integrity: sha512-5T6nhjsT+EOMzuck8JjBHARTHfMht0POzlA60WV2pMD3gyXw2LZnZ+ueGdNxG+0calOJcWKbpFcuzLZ91YWq9Q==}
@@ -2009,6 +2012,10 @@ packages:
     resolution: {integrity: sha512-okMH7OXXJ7YrN9Ok3/SXrnu4iX9yOk+25nqX4imS2npuvTYDmo/QEZoqwZkYaIDk3jVvBOTOIEgEhaLOynBS9g==}
     hasBin: true
 
+  js-yaml@4.1.0:
+    resolution: {integrity: sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==}
+    hasBin: true
+
   jsbn@0.1.1:
     resolution: {integrity: sha512-UVU9dibq2JcFWxQPA6KCqj5O42VOmAY3zQUfEKxU0KpTGXwNoCjkX1e13eHNvw/xPynt6pU0rZ1htjWTNTSXsg==}
 
@@ -2032,8 +2039,8 @@ packages:
   json-parse-even-better-errors@2.3.1:
     resolution: {integrity: sha512-xyFwyhro/JEof6Ghe2iz2NcXoj2sloNsWr/XsERDK/oiPCfaNhl5ONfp+jQdAZRQQ0IJWNzH9zIZF7li91kh2w==}
 
-  json-schema-ref-parser@8.0.0:
-    resolution: {integrity: sha512-2P4icmNkZLrBr6oa5gSZaDSol/oaBHYkoP/8dsw63E54NnHGRhhiFuy9yFoxPuSm+uHKmeGxAAWMDF16SCHhcQ==}
+  json-schema-ref-parser@9.0.9:
+    resolution: {integrity: sha512-qcP2lmGy+JUoQJ4DOQeLaZDqH9qSkeGCK3suKWxJXS82dg728Mn3j97azDMaOUmJAN4uCq91LdPx4K7E8F1a7Q==}
     engines: {node: '>=10'}
     deprecated: Please switch to @apidevtools/json-schema-ref-parser
 
@@ -3328,11 +3335,12 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@apidevtools/json-schema-ref-parser@8.0.0':
+  '@apidevtools/json-schema-ref-parser@9.0.9':
     dependencies:
       '@jsdevtools/ono': 7.1.3
+      '@types/json-schema': 7.0.15
       call-me-maybe: 1.0.2
-      js-yaml: 3.14.1
+      js-yaml: 4.1.0
 
   '@babel/code-frame@7.24.6':
     dependencies:
@@ -4089,6 +4097,8 @@ snapshots:
     dependencies:
       sprintf-js: 1.0.3
 
+  argparse@2.0.1: {}
+
   args@5.0.3:
     dependencies:
       camelcase: 5.0.0
@@ -4823,12 +4833,12 @@ snapshots:
       jest-message-util: 25.5.0
       jest-regex-util: 25.2.6
 
-  express-openapi-validator@3.10.0:
+  express-openapi-validator@3.17.2:
     dependencies:
       ajv: 6.12.6
       content-type: 1.0.5
       js-yaml: 3.14.1
-      json-schema-ref-parser: 8.0.0
+      json-schema-ref-parser: 9.0.9
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
       lodash.zipobject: 4.1.3
@@ -5739,6 +5749,10 @@ snapshots:
       argparse: 1.0.10
       esprima: 4.0.1
 
+  js-yaml@4.1.0:
+    dependencies:
+      argparse: 2.0.1
+
   jsbn@0.1.1: {}
 
   jsdom@15.2.1:
@@ -5779,9 +5793,9 @@ snapshots:
 
   json-parse-even-better-errors@2.3.1: {}
 
-  json-schema-ref-parser@8.0.0:
+  json-schema-ref-parser@9.0.9:
     dependencies:
-      '@apidevtools/json-schema-ref-parser': 8.0.0
+      '@apidevtools/json-schema-ref-parser': 9.0.9
 
   json-schema-traverse@0.4.1: {}
 
