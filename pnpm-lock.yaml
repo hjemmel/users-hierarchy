@@ -76,14 +76,14 @@ importers:
         specifier: 6.8.0
         version: 6.8.0
       eslint-config-prettier:
-        specifier: 6.15.0
-        version: 6.15.0(eslint@6.8.0)
+        specifier: 9.1.0
+        version: 9.1.0(eslint@6.8.0)
       eslint-plugin-jest:
         specifier: 23.20.0
         version: 23.20.0(eslint@6.8.0)(typescript@3.9.10)
       eslint-plugin-prettier:
         specifier: 3.4.1
-        version: 3.4.1(eslint-config-prettier@6.15.0(eslint@6.8.0))(eslint@6.8.0)(prettier@2.8.8)
+        version: 3.4.1(eslint-config-prettier@9.1.0(eslint@6.8.0))(eslint@6.8.0)(prettier@2.8.8)
       jest:
         specifier: 25.5.4
         version: 25.5.4
@@ -1153,11 +1153,11 @@ packages:
     engines: {node: '>=4.0'}
     hasBin: true
 
-  eslint-config-prettier@6.15.0:
-    resolution: {integrity: sha512-a1+kOYLR8wMGustcgAjdydMsQ2A/2ipRPwRKUmfYaSxc9ZPcrku080Ctl6zrZzZNs/U82MjSv+qKREkoq3bJaw==}
+  eslint-config-prettier@9.1.0:
+    resolution: {integrity: sha512-NSWl5BFQWEPi1j4TjVNItzYV7dZXZ+wP6I6ZhrBGpChQhZRUaElihE9uRRkcbRnNb76UMKDF3r+WTmNcGPKsqw==}
     hasBin: true
     peerDependencies:
-      eslint: '>=3.14.1'
+      eslint: '>=7.0.0'
 
   eslint-plugin-jest@23.20.0:
     resolution: {integrity: sha512-+6BGQt85OREevBDWCvhqj1yYA4+BFK4XnRZSGJionuEYmcglMZYLNNBBemwzbqUAckURaHdJSBcjHPyrtypZOw==}
@@ -1205,6 +1205,7 @@ packages:
   eslint@6.8.0:
     resolution: {integrity: sha512-K+Iayyo2LtyYhDSYwz5D5QdWw0hCacNzyq1Y821Xna2xSJj7cijoLLYmLxTQgcgZ9mC61nryMy9S7GRbYpI5Ig==}
     engines: {node: ^8.10.0 || ^10.13.0 || >=11.10.1}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
 
   espree@6.2.1:
@@ -1411,10 +1412,6 @@ packages:
   get-package-type@0.1.0:
     resolution: {integrity: sha512-pjzuKtY64GYfWizNAJ0fr9VqttZkNiK2iS430LtIHzjBEr6bX8Am2zm4sW4Ro5wjWW5cAlRL1qAMTcXbjNAO2Q==}
     engines: {node: '>=8.0.0'}
-
-  get-stdin@6.0.0:
-    resolution: {integrity: sha512-jp4tHawyV7+fkkSKyvjuLZswblUtz+SQKzSWnBbii16BuZksJlU1wuBYXY75r+duh/llF1ur6oNwi+2ZzjKZ7g==}
-    engines: {node: '>=4'}
 
   get-stream@4.1.0:
     resolution: {integrity: sha512-GMat4EJ5161kIy2HevLlr4luNjBgvmj413KaQA7jt4V8B4RDsfpHk7WQ9GVqfYyyx8OS/L66Kox+rJRNklLK7w==}
@@ -4343,10 +4340,9 @@ snapshots:
     optionalDependencies:
       source-map: 0.6.1
 
-  eslint-config-prettier@6.15.0(eslint@6.8.0):
+  eslint-config-prettier@9.1.0(eslint@6.8.0):
     dependencies:
       eslint: 6.8.0
-      get-stdin: 6.0.0
 
   eslint-plugin-jest@23.20.0(eslint@6.8.0)(typescript@3.9.10):
     dependencies:
@@ -4356,13 +4352,13 @@ snapshots:
       - supports-color
       - typescript
 
-  eslint-plugin-prettier@3.4.1(eslint-config-prettier@6.15.0(eslint@6.8.0))(eslint@6.8.0)(prettier@2.8.8):
+  eslint-plugin-prettier@3.4.1(eslint-config-prettier@9.1.0(eslint@6.8.0))(eslint@6.8.0)(prettier@2.8.8):
     dependencies:
       eslint: 6.8.0
       prettier: 2.8.8
       prettier-linter-helpers: 1.0.0
     optionalDependencies:
-      eslint-config-prettier: 6.15.0(eslint@6.8.0)
+      eslint-config-prettier: 9.1.0(eslint@6.8.0)
 
   eslint-scope@5.1.1:
     dependencies:
@@ -4701,8 +4697,6 @@ snapshots:
       hasown: 2.0.2
 
   get-package-type@0.1.0: {}
-
-  get-stdin@6.0.0: {}
 
   get-stream@4.1.0:
     dependencies:
