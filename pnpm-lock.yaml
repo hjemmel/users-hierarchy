@@ -12,8 +12,8 @@ importers:
         specifier: 3.7.2
         version: 3.7.2
       body-parser:
-        specifier: 1.20.2
-        version: 1.20.2
+        specifier: 1.20.3
+        version: 1.20.3
       cookie-parser:
         specifier: 1.4.6
         version: 1.4.6
@@ -5890,6 +5890,10 @@ snapshots:
   qs@6.13.0:
     dependencies:
       side-channel: 1.1.0
+
+  qs@6.13.0:
+    dependencies:
+      side-channel: 1.0.6
 
   qs@6.5.3: {}
 
