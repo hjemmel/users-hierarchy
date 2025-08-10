@@ -47,7 +47,7 @@
         "eslint-plugin-prettier": "3.4.1",
         "jest": "30.0.5",
         "jest-junit": "16.0.0",
-        "nodemon": "2.0.22",
+        "nodemon": "3.1.10",
         "pino-pretty": "3.6.1",
         "prettier": "2.8.8",
         "shelljs": "0.8.5",
