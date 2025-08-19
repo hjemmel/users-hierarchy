@@ -46,8 +46,8 @@ importers:
         specifier: 6.1.1
         version: 6.1.1
       '@types/express-serve-static-core':
-        specifier: 4.19.2
-        version: 4.19.2
+        specifier: 4.19.6
+        version: 4.19.6
       '@types/jest':
         specifier: 30.0.0
         version: 30.0.0
@@ -597,8 +597,8 @@ packages:
   '@types/dotenv@6.1.1':
     resolution: {integrity: sha512-ftQl3DtBvqHl9L16tpqqzA4YzCSXZfi7g8cQceTz5rOlYtk/IZbFjAv3mLOQlNIgOaylCQWQoBdDQHPgEBJPHg==}
 
-  '@types/express-serve-static-core@4.19.2':
-    resolution: {integrity: sha512-dPSEQElyVJ97BuGduAqQjpBocZWAs0GR94z+ptL7JXQJeJdHw2WBG3EWdFrK36b8Q6j8P4cXOMhgUoi0IIfIsg==}
+  '@types/express-serve-static-core@4.19.6':
+    resolution: {integrity: sha512-N4LZ2xG7DatVqhCZzOGb1Yi5lMbXSZcmdLDe9EzSndPV2HpWYWzRbaerl2n27irrm94EPpprqa8KpskPT085+A==}
 
   '@types/express@4.17.21':
     resolution: {integrity: sha512-ejlPM315qwLpaQlQDTjPdsUFSc6ZsP4AN6AlWnogPjQ7CVi7PYF3YVz+CY3jE2pwYf7E/7HlDAN0rV2GxTG0HQ==}
@@ -3498,7 +3498,7 @@ snapshots:
     dependencies:
       '@types/node': 20.12.12
 
-  '@types/express-serve-static-core@4.19.2':
+  '@types/express-serve-static-core@4.19.6':
     dependencies:
       '@types/node': 20.12.12
       '@types/qs': 6.9.15
@@ -3508,7 +3508,7 @@ snapshots:
   '@types/express@4.17.21':
     dependencies:
       '@types/body-parser': 1.19.5
-      '@types/express-serve-static-core': 4.19.2
+      '@types/express-serve-static-core': 4.19.6
       '@types/qs': 6.9.15
       '@types/serve-static': 1.15.7
 
