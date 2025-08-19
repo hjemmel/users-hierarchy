@@ -82,8 +82,8 @@ importers:
         specifier: 23.20.0
         version: 23.20.0(eslint@6.8.0)(typescript@5.8.3)
       eslint-plugin-prettier:
-        specifier: 3.4.1
-        version: 3.4.1(eslint-config-prettier@6.15.0(eslint@6.8.0))(eslint@6.8.0)(prettier@2.8.8)
+        specifier: 5.5.4
+        version: 5.5.4(eslint-config-prettier@6.15.0(eslint@6.8.0))(eslint@6.8.0)(prettier@2.8.8)
       jest:
         specifier: 30.0.5
         version: 30.0.5(@types/node@20.12.12)(ts-node@10.9.2(@types/node@20.12.12)(typescript@5.8.3))
@@ -1333,14 +1333,17 @@ packages:
     peerDependencies:
       eslint: '>=5'
 
-  eslint-plugin-prettier@3.4.1:
-    resolution: {integrity: sha512-htg25EUYUeIhKHXjOinK4BgCcDwtLHjqaxCDsMy5nbnUMkKFvIhMVCp+5GFUXQ4Nr8lBsPqtGAqBenbpFqAA2g==}
-    engines: {node: '>=6.0.0'}
+  eslint-plugin-prettier@5.5.4:
+    resolution: {integrity: sha512-swNtI95SToIz05YINMA6Ox5R057IMAmWZ26GqPxusAp1TZzj+IdY9tXNWWD3vkF/wEqydCONcwjTFpxybBqZsg==}
+    engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
-      eslint: '>=5.0.0'
-      eslint-config-prettier: '*'
-      prettier: '>=1.13.0'
+      '@types/eslint': '>=8.0.0'
+      eslint: '>=8.0.0'
+      eslint-config-prettier: '>= 7.0.0 <10.0.0 || >=10.1.0'
+      prettier: '>=3.0.0'
     peerDependenciesMeta:
+      '@types/eslint':
+        optional: true
       eslint-config-prettier:
         optional: true
 
@@ -4226,11 +4229,12 @@ snapshots:
       - supports-color
       - typescript
 
-  eslint-plugin-prettier@3.4.1(eslint-config-prettier@6.15.0(eslint@6.8.0))(eslint@6.8.0)(prettier@2.8.8):
+  eslint-plugin-prettier@5.5.4(eslint-config-prettier@6.15.0(eslint@6.8.0))(eslint@6.8.0)(prettier@2.8.8):
     dependencies:
       eslint: 6.8.0
       prettier: 2.8.8
       prettier-linter-helpers: 1.0.0
+      synckit: 0.11.11
     optionalDependencies:
       eslint-config-prettier: 6.15.0(eslint@6.8.0)
 
