@@ -43,8 +43,8 @@ importers:
         specifier: 1.4.9
         version: 1.4.9(@types/express@4.17.21)
       '@types/dotenv':
-        specifier: 6.1.1
-        version: 6.1.1
+        specifier: 8.2.3
+        version: 8.2.3
       '@types/express-serve-static-core':
         specifier: 4.19.2
         version: 4.19.2
@@ -594,8 +594,9 @@ packages:
     peerDependencies:
       '@types/express': '*'
 
-  '@types/dotenv@6.1.1':
-    resolution: {integrity: sha512-ftQl3DtBvqHl9L16tpqqzA4YzCSXZfi7g8cQceTz5rOlYtk/IZbFjAv3mLOQlNIgOaylCQWQoBdDQHPgEBJPHg==}
+  '@types/dotenv@8.2.3':
+    resolution: {integrity: sha512-g2FXjlDX/cYuc5CiQvyU/6kkbP1JtmGzh0obW50zD7OKeILVL0NSpPWLXVfqoAGQjom2/SLLx9zHq0KXvD6mbw==}
+    deprecated: This is a stub types definition. dotenv provides its own type definitions, so you do not need this installed.
 
   '@types/express-serve-static-core@4.19.2':
     resolution: {integrity: sha512-dPSEQElyVJ97BuGduAqQjpBocZWAs0GR94z+ptL7JXQJeJdHw2WBG3EWdFrK36b8Q6j8P4cXOMhgUoi0IIfIsg==}
@@ -3494,9 +3495,9 @@ snapshots:
     dependencies:
       '@types/express': 4.17.21
 
-  '@types/dotenv@6.1.1':
+  '@types/dotenv@8.2.3':
     dependencies:
-      '@types/node': 20.12.12
+      dotenv: 16.5.0
 
   '@types/express-serve-static-core@4.19.2':
     dependencies:
